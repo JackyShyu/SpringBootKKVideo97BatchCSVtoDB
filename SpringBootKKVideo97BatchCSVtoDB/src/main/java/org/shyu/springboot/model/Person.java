@@ -10,6 +10,9 @@ public class Person implements Serializable {
 	private String email;
 	private int age;
 	
+	public Person() {
+	}
+	
 	public Person(String firstName, String lastName, String email, int age) {
 		this.firstName = firstName;
 		this.lastName = lastName;
